@@ -53,7 +53,7 @@ namespace CSharpHelper.Extensions
         /// </summary>
         /// <param name="value">The object to compare to</param>
         /// <returns>True when the object is an int and false when it is not</returns>
-        public static bool IsInt(this object value)
+        public static bool IsInt<T>(this T value)
         {
             if (value == null)
                 return false;
@@ -65,7 +65,7 @@ namespace CSharpHelper.Extensions
         /// </summary>
         /// <param name="value">The object to compare to</param>
         /// <returns>True when the object is a float and false when it is not</returns>
-        public static bool IsFloat(this object value)
+        public static bool IsFloat<T>(this T value)
         {
             if (value == null)
                 return false;
@@ -77,7 +77,7 @@ namespace CSharpHelper.Extensions
         /// </summary>
         /// <param name="value">The object to compare to</param>
         /// <returns>True when the object is a double and false when it is not</returns>
-        public static bool IsDouble(this object value)
+        public static bool IsDouble<T>(this T value)
         {
             if (value == null)
                 return false;
@@ -89,7 +89,7 @@ namespace CSharpHelper.Extensions
         /// </summary>
         /// <param name="value">The object to compare to</param>
         /// <returns>True when the object is a bool and false when it is not</returns>
-        public static bool IsBool(this object value)
+        public static bool IsBool<T>(this T value)
         {
             if (value == null)
                 return false;
@@ -101,7 +101,7 @@ namespace CSharpHelper.Extensions
         /// </summary>
         /// <param name="value">The object to compare to</param>
         /// <returns>True when the object is a byte and false when it is not</returns>
-        public static bool IsByte(this object value)
+        public static bool IsByte<T>(this T value)
         {
             if (value == null)
                 return false;
@@ -113,7 +113,7 @@ namespace CSharpHelper.Extensions
         /// </summary>
         /// <param name="value">The object to compare to</param>
         /// <returns>True when the object is a long and false when it is not</returns>
-        public static bool IsLong(this object value)
+        public static bool IsLong<T>(this T value)
         {
             if (value == null)
                 return false;
@@ -125,7 +125,7 @@ namespace CSharpHelper.Extensions
         /// </summary>
         /// <param name="value">The object to compare to</param>
         /// <returns>True when the object is a string and false when it is not</returns>
-        public static bool IsString(this object value)
+        public static bool IsString<T>(this T value)
         {
             if (value == null)
                 return false;
@@ -137,7 +137,7 @@ namespace CSharpHelper.Extensions
         /// </summary>
         /// <param name="value">The object to compare to</param>
         /// <returns>True when the object is a char and false when it is not</returns>
-        public static bool IsChar(this object value)
+        public static bool IsChar<T>(this T value)
         {
             if (value == null)
                 return false;
@@ -149,7 +149,7 @@ namespace CSharpHelper.Extensions
         /// </summary>
         /// <param name="value">The object to compare to</param>
         /// <returns>True when the object is iterable and false when it is not</returns>
-        public static bool IsIterable(this object value)
+        public static bool IsIterable<T>(this T value)
         {
             if (value == null)
                 return false;
@@ -163,7 +163,7 @@ namespace CSharpHelper.Extensions
         /// </summary>
         /// <param name="value">The object to compare to</param>
         /// <returns>True when the object is an array and false when it is not</returns>
-        public static bool IsArray(this object value)
+        public static bool IsArray<T>(this T value)
         {
             if (value == null)
                 return false;

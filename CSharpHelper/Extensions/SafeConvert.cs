@@ -14,7 +14,7 @@ namespace CSharpHelper.Extensions
         /// <param name="value">The value to convert to a double</param>
         /// <param name="defaultValue">The value to return when an error occurs</param>
         /// <returns>A double out of the given input value or the default value</returns>
-        public static double ToDouble(this object value, double defaultValue = 0)
+        public static double ToDouble<T>(this T value, double defaultValue = 0)
         {
             if (value != null)
             {
@@ -32,7 +32,7 @@ namespace CSharpHelper.Extensions
         /// <param name="value">The value to convert to an int</param>
         /// <param name="defaultValue">The value to return when an error occurs</param>
         /// <returns>An int out of the given input value or the default value</returns>
-        public static int ToInt(this object value, int defaultValue = 0)
+        public static int ToInt<T>(this T value, int defaultValue = 0)
         {
             if (value != null)
             {
@@ -50,7 +50,7 @@ namespace CSharpHelper.Extensions
         /// <param name="value">The value to convert to a float</param>
         /// <param name="defaultValue">The value to return when an error occurs</param>
         /// <returns>A float out of the given input value or the default value</returns>
-        public static float ToFloat(this object value, float defaultValue = 0)
+        public static float ToFloat<T>(this T value, float defaultValue = 0)
         {
             if (value != null)
             {
@@ -68,7 +68,7 @@ namespace CSharpHelper.Extensions
         /// <param name="value">The value to convert to a bool</param>
         /// <param name="defaultValue">The value to return when an error occurs</param>
         /// <returns>A bool out of the given input value or the default value</returns>
-        public static bool ToBool(this object value, bool defaultValue = false)
+        public static bool ToBool<T>(this T value, bool defaultValue = false)
         {
             if (value != null)
             {
@@ -86,7 +86,7 @@ namespace CSharpHelper.Extensions
         /// <param name="value">The value to convert to a long</param>
         /// <param name="defaultValue">The value to return when an error occurs</param>
         /// <returns>A long out of the given input value or the default value</returns>
-        public static long ToLong(this object value, long defaultValue = 0)
+        public static long ToLong<T>(this T value, long defaultValue = 0)
         {
             if (value != null)
             {
@@ -104,7 +104,7 @@ namespace CSharpHelper.Extensions
         /// <param name="value">The value to convert to a byte</param>
         /// <param name="defaultValue">The value to return when an error occurs</param>
         /// <returns>A byte out of the given input value or the default value</returns>
-        public static byte ToByte(this object value, byte defaultValue = 0)
+        public static byte ToByte<T>(this T value, byte defaultValue = 0)
         {
             if (value != null)
             {
@@ -122,7 +122,7 @@ namespace CSharpHelper.Extensions
         /// <param name="value">The value to convert to a string</param>
         /// <param name="defaultValue">The value to return when an error occurs</param>
         /// <returns>A string out of the given input value or the default value</returns>
-        public static string ToString(this object value, string defaultValue = "")
+        public static string ToString<T>(this T value, string defaultValue = "")
         {
             if (value == null)
                 return defaultValue;
@@ -139,7 +139,7 @@ namespace CSharpHelper.Extensions
         /// <param name="value">The value to convert to enum</param>
         /// <param name="defaultValue">The value to return when an error occurs</param>
         /// <returns>An enum of the given type or the default value</returns>
-        public static TEnum ToEnum<TEnum>(this object value, TEnum defaultValue) where TEnum : struct
+        public static TEnum ToEnum<TEnum, T>(this T value, TEnum defaultValue) where TEnum : struct
         {
             if (value != null)
             {
