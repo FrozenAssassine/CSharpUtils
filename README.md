@@ -1,9 +1,20 @@
-# CSharUtils
-After some programming in C#, I came across some things that I always copied into new projects to simplify the programming process.
-Here are those functions that I think are very useful.
+# CSharUtils - Utility Functions for C#
 
-## Features
+[![GitHub Stars](https://img.shields.io/github/stars/FrozenAssassine/CSharpUtils?style=flat)](https://github.com/FrozenAssassine/CSharUtils/stargazers)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/FrozenAssassine/CSharpUtils?style=flat)](https://github.com/FrozenAssassine/CSharUtils/pulls)
+[![Repo Size](https://img.shields.io/github/repo-size/FrozenAssassine/CSharpUtils?style=flat)](https://github.com/FrozenAssassine/CSharUtils)
 
+## 🤔 What is this project?
+CSharUtils is my collection of utility functions and extensions for C#. I made it to simplify common programming tasks. Since I kept reusing these utilities in different projects, I decided to combine them into one library to make them easier to use and share.
+
+## 🛠️ Features
+
+### EnumerableExtension
+```csharp
+public static int CountWords(this IEnumerable<string> items)
+public static int CountCharacters(this IEnumerable<string> items)
+public static int LongestStringIndex(IEnumerable<string> items)
+public static string ToString(this IEnumerable<string> items, string separator)
 ### EnumerableExtension
 ```cs
 public static int CountWords(this IEnumerable<string> items)
