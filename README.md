@@ -1,11 +1,11 @@
-# CSharUtils - Utility Functions for C#
+# CSharpUtils - Utility Functions for C#
 
-[![GitHub Stars](https://img.shields.io/github/stars/FrozenAssassine/CSharpUtils?style=flat)](https://github.com/FrozenAssassine/CSharUtils/stargazers)
-[![GitHub PRs](https://img.shields.io/github/issues-pr/FrozenAssassine/CSharpUtils?style=flat)](https://github.com/FrozenAssassine/CSharUtils/pulls)
-[![Repo Size](https://img.shields.io/github/repo-size/FrozenAssassine/CSharpUtils?style=flat)](https://github.com/FrozenAssassine/CSharUtils)
+[![GitHub Stars](https://img.shields.io/github/stars/FrozenAssassine/CSharpUtils?style=flat)](https://github.com/FrozenAssassine/CSharpUtils/stargazers)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/FrozenAssassine/CSharpUtils?style=flat)](https://github.com/FrozenAssassine/CSharpUtils/pulls)
+[![Repo Size](https://img.shields.io/github/repo-size/FrozenAssassine/CSharpUtils?style=flat)](https://github.com/FrozenAssassine/CSharpUtils)
 
 ## 🤔 What is this project?
-CSharUtils is my collection of utility functions and extensions for C#. I made it to simplify common programming tasks. Since I kept reusing these utilities in different projects, I decided to combine them into one library to make them easier to use and share.
+CSharpUtils is my collection of utility functions and extensions for C#. I made it to simplify common programming tasks. Since I kept reusing these utilities in different projects, I decided to combine them into one library to make them easier to use and share.
 
 ## 🛠️ Features
 
