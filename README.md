@@ -15,12 +15,6 @@ public static int CountWords(this IEnumerable<string> items)
 public static int CountCharacters(this IEnumerable<string> items)
 public static int LongestStringIndex(IEnumerable<string> items)
 public static string ToString(this IEnumerable<string> items, string separator)
-### EnumerableExtension
-```cs
-public static int CountWords(this IEnumerable<string> items)
-public static int CountCharacters(this IEnumerable<string> items)
-public static int LongestStringIndex(IEnumerable<string> items)
-public static string ToString(this IEnumerable<string> items, string separator)
 ```
 
 ### SafeCompare
